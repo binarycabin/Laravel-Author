@@ -1,0 +1,17 @@
+{
+    "name": "binarycabin/laravel-author",
+    "description": "A simple way to generate the model's author user when created",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeff Kilroy",
+            "email": "jeff@binarycabin.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BinaryCabin\\LaravelAuthor\\": "src/"
+        }
+    }
+}
