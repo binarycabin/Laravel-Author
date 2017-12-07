@@ -1,6 +1,10 @@
 # Laravel-Author
 A simple way to generate the model's author user when created
 
+```
+composer require binarycabin/laravel-author
+```
+
 This package adds a very simple trait to automatically save the user id who created this model.
 
 Simply add the "\BinaryCabin\LaravelAuthor\Traits\HasAuthorUser;" trait to your model:
